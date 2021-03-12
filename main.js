@@ -1,12 +1,12 @@
 function mission() {
   let passcode = document.getElementById("passcode").value;
-  if (passcode == "0123") {
+  if (passcode == "jekek") {
     location.replace("html/agent110.html");
-  } else if (passcode == "1234") {
+  } else if (passcode == "sar56n") {
     location.replace("html/agent120.html");
-  } else if (passcode == "2345") {
+  } else if (passcode == "dro69s") {
     location.replace("html/agent130.html");
-  } else if (passcode == "3456") {
+  } else if (passcode == "uejek") {
     location.replace("html/agent140.html");
   }
   else {
@@ -24,8 +24,8 @@ function visible() {
 }
 function rewardcode(){
     let rewardpass = document.getElementById("secretpass").value;
-    if (rewardpass == "5544") {
-      alert('Congratilation!! Your mission has been successfull.')
+    if (rewardpass == "126") {
+      alert('Congratilation!! Your mission has been successful.')
     }
     else{
       alert('You have entered a wrong code. Please enter correctly');
