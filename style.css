@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500&family=Ubuntu:wght@300;400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  background: url('img/Front.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.missionbody {
+  background: #1e272c;
+  font-size: 13px;
+}
+
+.passbox {
+  height: 45%;
+  width: 75%;
+  display: inherit;
+  justify-content: space-between;
+  flex-direction: column;
+  position: relative;
+}
+
+.btn {
+  height: 30px;
+  width: 60px;
+  background: transparent;
+  border: none;
+  outline: none;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  color: snow;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.btn:hover {
+  color: #242526;
+}
+
+.passcode {
+  background: transparent;
+  padding: 5px;
+  padding-bottom: 8px;
+  color: #098AAF;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #098AAF;
+  color: snow;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+::placeholder {
+  color: snow;
+}
+
+.accesspage {
+  width: 75vw;
+  height: 22vh;
+  top: 32vh;
+  left: 12.5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0.5px 0.5px 1rem 0 #098AAF;
+  border-radius: 5px;
+  position: relative;
+  z-index: 1;
+  background: inherit;
+  overflow: hidden;
+}
+
+.accesspage:before {
+  content: "";
+  position: absolute;
+  background: inherit;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+  filter: blur(4px);
+  margin: -20px;
+}
+
+.card {
+  height: 30vh;
+  width: 95vw;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  left: 2.5vw;
+  top: 1vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 25px;
+  box-shadow: 0.5px 0.5px 1rem 0 #42445A;
+}
+
+.card:after {
+  content: "";
+  background: url(img/AgentBack.jpg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  opacity: 0.35;
+  z-index: -1;
+}
+
+.img {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2.5px solid #1e272c;
+  box-shadow: 0.5px 0.5px 1rem 0 #42445A;
+
+}
+
+.agentimg {
+  height: 100%;
+  width: 100%;
+}
+
+.info {
+  color: snow;
+  font-family: 'Ubuntu', sans-serif;
+  flex-basis: 50%;
+  font-weight: 300;
+  line-height: 25px;
+}
+
+.mission {
+  width: 95vw;
+  margin: 0 auto;
+  margin-top: 25px;
+  text-align: center;
+  padding: 20px 10px;
+  font-family: 'Montserrat', 'Ubuntu', sans-serif;
+  color: snow;
+}
+
+.mission h2 {
+  font-weight: 500;
+}
+
+.missions {
+  font-weight: 300;
+  line-height: 22px;
+  margin: 2rem 0;
+  text-align: justify;
+  color: #CDD6D9;
+}
+
+.getbtn {
+  margin-top: 20px;
+  border: 1px solid #154D5D;
+  outline: none;
+  background: transparent;
+  height: 30px;
+  border-radius: 5px;
+  color: snow;
+  font-weight: 300;
+  padding: 5px;
+  font-family: 'Montserrat', 'Ubuntu', sans-serif;
+  font-size: 12px;
+}
+
+.getbtn:hover {
+  background: #006C8C;
+}
+
+.secretpass {
+  height: 10vh;
+  width: 60vw;
+  position: relative;
+  margin: 20px auto;
+  overflow: hidden;
+}
+
+#secret {
+  visibility: hidden;
+}
+
+#secretbtn:hover {
+  color: #006C8C;
+}
