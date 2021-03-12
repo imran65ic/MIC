@@ -1,12 +1,12 @@
 function mission() {
   let passcode = document.getElementById("passcode").value;
-  if (passcode == "0123") {
+  if (passcode == "hejejjd") {
     location.replace("html/agent110.html");
-  } else if (passcode == "1234") {
+  } else if (passcode == "sar56n") {
     location.replace("html/agent120.html");
-  } else if (passcode == "2345") {
+  } else if (passcode == "dro69s") {
     location.replace("html/agent130.html");
-  } else if (passcode == "3456") {
+  } else if (passcode == "hejks") {
     location.replace("html/agent140.html");
   }
   else {
