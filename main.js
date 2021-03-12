@@ -24,7 +24,7 @@ function visible() {
 }
 function rewardcode(){
     let rewardpass = document.getElementById("secretpass").value;
-    if (rewardpass == "5544") {
+    if (rewardpass == "126") {
       alert('Congratilation!! Your mission has been successfull.')
     }
     else{
