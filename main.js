@@ -25,7 +25,7 @@ function visible() {
 function rewardcode(){
     let rewardpass = document.getElementById("secretpass").value;
     if (rewardpass == "126") {
-      alert('Congratilation!! Your mission has been successfull.')
+      alert('Congratilation!! Your mission has been successful.')
     }
     else{
       alert('You have entered a wrong code. Please enter correctly');
